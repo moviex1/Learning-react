@@ -1,0 +1,39 @@
+.item {
+  color: slateblue;
+  margin-bottom: 30px;
+}
+
+.pfp {
+  width: 40px;
+  border-radius: 50%;
+
+}
+
+.like {
+  border: 1px solid rgb(91, 226, 91);
+}
+
+.dislike {
+  border: 1px solid rgb(216, 80, 80);
+}
+
+span {
+  color: black;
+  margin: 5px;
+  transition: 1s;
+  cursor: pointer;
+  border-radius: 9px;
+  font-size: 20px;
+}
+
+.like:hover {
+  background-color: rgb(91, 226, 91);
+}
+
+.dislike:hover {
+  background-color: rgb(216, 80, 80);
+}
+
+.likeCount {
+  font-size: 16px;
+}

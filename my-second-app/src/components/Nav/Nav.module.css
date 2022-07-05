@@ -1,0 +1,17 @@
+.nav {
+  grid-area: nav;
+  background-color: rgba(128, 128, 128, 0.459);
+}
+
+.ul {
+  list-style: none;
+}
+
+.item.special {
+  color: gold;
+}
+
+.item {
+  text-decoration: none;
+  color: white;
+}
