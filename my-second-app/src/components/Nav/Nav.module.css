@@ -1,17 +1,17 @@
 .nav {
   grid-area: nav;
   background-color: rgba(128, 128, 128, 0.459);
+  padding-right:30px;
 }
 
 .ul {
   list-style: none;
 }
 
-.item.special {
-  color: gold;
-}
-
-.item {
+li a{
   text-decoration: none;
   color: white;
+}
+li a.active {
+  color: gold;
 }
