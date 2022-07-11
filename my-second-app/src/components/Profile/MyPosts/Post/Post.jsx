@@ -10,7 +10,7 @@ const Post = (props) => {
           src="https://p.favim.com/orig/2018/11/06/eromanga-sensei-icons-anime-Favim.com-6516798.png"
         />
         {props.text}
-        <div>
+        <div className={s.evalution}>
           <span className={s.like}>Like </span>
           <span className={s.dislike}>Dislike</span>
           <span className={s.likeCount}> {props.likeCount} </span>
